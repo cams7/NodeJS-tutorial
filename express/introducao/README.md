@@ -1,3 +1,3 @@
 #Instalação
-$ npm init
-$ npm install express --save
+- $ npm init
+- $ npm install express --save
