@@ -1,5 +1,18 @@
 #Acesse o tutorial "Como Instalar o Node.js em um Servidor Ubuntu 14.04" através da url: https://www.digitalocean.com/community/tutorials/como-instalar-o-node-js-em-um-servidor-ubuntu-14-04-pt. 
 
+#Comandos UTIL
+
+#Matar processo
+- kill -9 <pid>
+
+#Descobrir processo pela porta
+- sudo lsof -t -i:<port>
+- fuser -n tcp -k <port>
+- sudo netstat -lpn |grep :<port>
+
+#Matar processo pela porta
+- sudo kill -9 `sudo lsof -t -i:<port>`
+
 # Comandos do Git
 - git version
 - git init
