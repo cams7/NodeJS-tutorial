@@ -1,0 +1,27 @@
+{
+  "name": "using-template-engines",
+  "version": "1.0.0",
+  "description": "Using template engines with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cams7/NodeJS-tutorial.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "César Magalhães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cams7/NodeJS-tutorial/issues"
+  },
+  "homepage": "https://github.com/cams7/NodeJS-tutorial#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
